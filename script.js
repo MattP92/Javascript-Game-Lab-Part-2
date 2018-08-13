@@ -31,7 +31,7 @@ function startCombat(userName) {
             if (Wins === 3){
                 console.log(`${userName} won the game`);
             }
-            if (userHealth < 0){
+            if (userHealth <= 0){
                 console.log(`${opponent} won the game`);
             }
         }else if (userMove === 'quit') {
